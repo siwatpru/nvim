@@ -132,11 +132,11 @@ require('lazy').setup({
   },
 
   {
-    -- Theme inspired by Atom
-    'navarasu/onedark.nvim',
-    priority = 1000,
+    -- Theme: Ayu Dark
+    'Shatur/neovim-ayu',
+    mirage = false,
     config = function()
-      vim.cmd.colorscheme 'onedark'
+      vim.cmd.colorscheme 'ayu'
     end,
   },
 
